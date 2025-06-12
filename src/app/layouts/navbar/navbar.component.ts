@@ -12,4 +12,8 @@ export class NavbarComponent {
 
   constructor() {
   }
+  toggleDarkMode() {
+  document.body.classList.toggle('dark-mode');
+}
+
 }

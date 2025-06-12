@@ -7,6 +7,14 @@ body {
   color: #fff;
   width: 100%;
 }
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   // centre horizontalement
+  font-size: 1rem;
+}
 
 h2 {
   border-bottom: 2px solid #6610f2;
@@ -64,25 +72,40 @@ app-root {
 
 @import "./sass/abstracts/mixins";
 @import "./sass/abstracts/variables";
-// @import "./sass/abstracts/helpers";
-
-// @import "./sass/base/base";
-// @import "./sass/base/typography";
-
-// @import "./sass/components/buttons";
-
-// @import "./sass/layout/footer";
-// @import "./sass/layout/sections";
-
-// @import "./sass/sections/about";
-// @import "./sass/sections/contact";
-// @import "./sass/sections/hero";
-// @import "./sass/sections/projects";
-* {
-  outline: 1px solid red;
+html {
+  scroll-behavior: smooth;
 }
-/* Empêche tout débordement horizontal */
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark-mode nav {
+  background: #1e1e2f;
+  border-color: #444;
+}
+
+/* Tu peux aussi inverser les couleurs des boutons, liens, etc. */
+main {
+  width: 100%;
+  max-width: 1200px;     // limite la largeur sur grands écrans
+  padding: 0 16px;       // un peu d'air sur les côtés
+}
+/* Mobile : largeur < 768px */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.875rem;  // ~14px
+  }
+
+  h1 {
+    font-size: 1.5rem;  // réduis un peu les titres
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p, a, li, span {
+    font-size: 0.9rem;
+  }
 }

@@ -2,15 +2,15 @@ nav{
   background: #5b6c91;
   color: #fff;
   z-index: 1000;
-  top: 5px;
+  top: 0;
   position: sticky;
   align-items: center;
   justify-content: center;
   display: flex;
   border: 2px solid #35008a;
   border-radius: 50px;
-  width: 100%;
-  overflow-x: hidden;
+  // width: 100%;
+  // //overflow-x: hidden;
 }
 #divfluid{
     border-radius: 50%;
