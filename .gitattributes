@@ -1,0 +1,12 @@
+# Force TypeScript comme langage principal
+*.ts linguist-language=TypeScript
+
+# Force SCSS comme langage secondaire
+*.scss linguist-language=SCSS
+
+# Optionnel : ignore les fichiers générés
+node_modules/** linguist-vendored
+dist/** linguist-vendored
+
+# Optionnel : marque les fichiers de documentation
+*.md linguist-documentation=true
