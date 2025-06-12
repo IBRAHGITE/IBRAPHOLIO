@@ -1,0 +1,33 @@
+.lead{
+  font-size: 5rem;
+  color: #35008a;
+  border: 3px solid #35008a;
+  border-radius: 10px;
+}
+// .lead:hover{
+//   color: #fff;
+//   font-weight: 600;
+//   cursor: pointer;
+//   border: 3px solid #35008a;
+//   transition: all 0.3s ease-in-out;
+// }
+strong{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 150px;
+  height: 150px;
+  border: none;
+}
+.rounded{
+  width: 150px;
+  height: 150px;
+  border: none;
+}

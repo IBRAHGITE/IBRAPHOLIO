@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+}
+
+h2 {
+  border-bottom: 2px solid #6610f2;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+#grad1 {
+  height: 200px;
+
+}
+/* src/styles.scss */
+
+// Variables pour les couleurs du dégradé (optionnel, mais bonne pratique)
+$gradient-start-color: #5b6c91; // Bleu-violet riche
+$gradient-end-color: #4b494e;   // Violet plus profond avec une touche de bleu
+
+body {
+    // Dégradé linéaire vertical
+    background: linear-gradient(to bottom, $gradient-start-color, $gradient-end-color);
+    min-height: 100vh; // Assure que le dégradé couvre toute la hauteur de la fenêtre
+    margin: 0; // Réinitialise la marge par défaut du body
+
+    // Optionnel: Pour centrer le contenu de l'application si désiré
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+// Styles Bootstrap (si tu utilises Bootstrap)
+// Tu peux importer Bootstrap ici si ce n'est pas déjà fait via angular.json
+
+// Styles pour tes composants (si tu en as besoin, par exemple pour des cartes)
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+// Si tu as un élément <router-outlet> et que tu veux qu'il remplisse l'espace
+// ou que ton contenu soit affecté par le flexbox du body
+app-root {
+    width: 100%; // Assure que ton composant racine prend toute la largeur
+    // Optionnel: si tu veux que app-root utilise le flexbox du body
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; // Peut être nécessaire si ton contenu est très court
+}
+
+
+@import "./sass/abstracts/mixins";
+@import "./sass/abstracts/variables";
+// @import "./sass/abstracts/helpers";
+
+// @import "./sass/base/base";
+// @import "./sass/base/typography";
+
+// @import "./sass/components/buttons";
+
+// @import "./sass/layout/footer";
+// @import "./sass/layout/sections";
+
+// @import "./sass/sections/about";
+// @import "./sass/sections/contact";
+// @import "./sass/sections/hero";
+// @import "./sass/sections/projects";

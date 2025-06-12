@@ -1,0 +1,50 @@
+<section id="about" class="container py-5">
+  <div class="container">
+    <h2 class="section-title load-hidden">{{aboutData.title}}</h2>
+    <div class="row about-wrapper">
+      <div class="col-md-6 col-sm-12">
+        <div class="about-wrapper__image load-hidden">
+          <img
+            alt="Profile Image"
+            class="img-fluid rounded shadow-lg"
+            height="auto"
+            width="300px"
+            [src]="aboutData.profileImage"
+            alt="Profile Image"
+          />
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="about-wrapper__info load-hidden">
+          <p class="about-wrapper__info-text">
+          {{aboutData.text1}}
+          </p>
+          <p class="about-wrapper__info-text">
+          {{aboutData.text2}}
+          </p>
+          <span class="d-flex mt-3">
+            <!-- <a
+              rel="noreferrer"
+              target="_blank"
+              class="cta-btn cta-btn--resume"
+              href="assets/Pdf/CV-GITE_IBRAHIM.pdf"
+              download
+            >
+              Telecharger mon cv
+            </a><br> -->
+            <button
+             rel="noreferrer"
+              target="_blank"
+              class="cta-btn cta-btn--resume pdf"
+              (click)="openPdf()"
+              download
+            >
+              <i class="fa-duotone fa-solid fa-download"></i>
+              {{aboutData.downloadCV}}
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
