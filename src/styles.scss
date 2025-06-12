@@ -5,6 +5,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   color: #fff;
+  width: 100%;
 }
 
 h2 {
@@ -77,3 +78,13 @@ app-root {
 // @import "./sass/sections/contact";
 // @import "./sass/sections/hero";
 // @import "./sass/sections/projects";
+* {
+  outline: 1px solid red;
+}
+/* Empêche tout débordement horizontal */
+// html, body {
+//   max-width: 100%;
+//   overflow-x: hidden;
+// }
+// width: 100%;
+// overflow-x: hidden;
