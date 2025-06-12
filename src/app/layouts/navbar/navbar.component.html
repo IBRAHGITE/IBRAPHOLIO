@@ -4,10 +4,10 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse" id="navbarNav" #navbarCollapseRef>
       <ul class="navbar-nav ms-auto">
         <li *ngFor="let link of navbarData.links" class="nav-item">
-          <a class="nav-link" [href]="link.url">{{link.label}}</a>
+          <a class="nav-link" [href]="link.url"  (click)="closeMenu()">{{link.label}}</a>
         </li>
       </ul>
     </div>
