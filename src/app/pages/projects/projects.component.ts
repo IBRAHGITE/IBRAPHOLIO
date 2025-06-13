@@ -1,23 +1,22 @@
 import { Component } from '@angular/core';
-
+import { Data } from '../../models/data.model';
+import { NgClass, NgFor } from '@angular/common';
+import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-projects',
-  imports: [],
+  imports: [NgClass,RouterLink,NgFor],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
 })
 export class ProjectsComponent {
-  projets = [
-    {
-      nom: 'FlightManager',
-      description: 'Application de gestion de vols avec Angular et Laravel.',
-      lien: 'https://github.com/tonprofil/flightmanager'
-    },
-    {
-      nom: 'WatchStore',
-      description: 'Site e-commerce de montres connectées en Angular.',
-      lien: 'https://github.com/tonprofil/watchstore'
-    }
-  ];
+  projets = Data.projects
+  selectedProject: any = null;
+
+  openProjectModal(idprojet: number) {
+    setTimeout(() => {
+    this.selectedProject = idprojet;
+  }, 500);
+  }
+
 }
 

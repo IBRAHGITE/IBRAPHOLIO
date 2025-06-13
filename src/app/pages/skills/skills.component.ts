@@ -10,6 +10,5 @@ import { NgFor } from '@angular/common';
 export class SkillsComponent {
   skillsData = Data.skills;
   constructor() {
-    console.log('Skills Data:', this.skillsData);
   }
 }
