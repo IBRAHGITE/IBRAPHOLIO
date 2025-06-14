@@ -8,14 +8,15 @@ import { SkillsComponent } from '../../pages/skills/skills.component';
 import { ContactComponent } from '../../pages/contact/contact.component';
 import { HomeComponent } from '../../pages/home/home.component';
 import { initScrollReveal } from '../../shared/scrollreveal.service';
+import { ExperiencesComponent } from '../../pages/experiences/experiences.component';
 @Component({
   selector: 'app-main',
-  imports: [NavbarComponent, FooterComponent, RouterOutlet, AboutComponent, ProjectsComponent, SkillsComponent, ContactComponent, HomeComponent],
+  imports: [NavbarComponent, FooterComponent, RouterOutlet, AboutComponent, ProjectsComponent, SkillsComponent, ContactComponent, HomeComponent, ExperiencesComponent],
   templateUrl: './main.component.html',
   styleUrl: './main.component.scss'
 })
 export class MainComponent implements AfterViewInit {
   ngAfterViewInit(): void {
-    initScrollReveal();
+    // initScrollReveal();
   }
 }
