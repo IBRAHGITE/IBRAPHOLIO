@@ -10,7 +10,7 @@ export const Data = {
       { "label": "Contact", "url": "mailto:gite.ibrahim02@gmail.com" }
     ]
   },
-  
+
   "footer": {
     "text": "© 2023 My Application",
     "links": [
@@ -25,7 +25,7 @@ export const Data = {
     "text2": "Parallèlement, mon expertise en administration réseau et gestion de matériel informatique me permet d’assurer le bon fonctionnement des systèmes et des infrastructures, garantissant sécurité, efficacité et fiabilité. Curieux et rigoureux, je m'investis pleinement dans chaque projet, avec un objectif clair : proposer des solutions simples, innovantes et adaptées aux besoins réels des utilisateurs et en tant que CRAC(Compétent Responsable Autonome et Créatif) je suis toujous motivé a me former et aller vers de nouveaux challenge.",
     "downloadCV": "Telecharger mon CV",
     "cvLink": "assets/Pdf/CV-IbrahimGIITE.pdf",
-    "profileImage": "assets/Img/profil.jpeg",
+    "profileImage": "assets/Img/Ibrah.jpg",
   },
   "home": {
     "salutation": "Hello!",
