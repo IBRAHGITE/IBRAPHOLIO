@@ -63,43 +63,35 @@ export const Data = {
         "name" : "Quizz dev",
         "description" : "Projet realiser en angular qui genere des quizz aleatoire en nombre aleatoire sur le developpement web(Front et Backe-end) et affiche leur score a la fin",
         "image" : "assets/Img/QuizDev.png",
-        "link" : "https://ibrahgite.github.io/QuizDev"
+        "link" : "https://ibrahgite.github.io/QuizDev",
+        "modalButtonText": "Voir la démo"
        }
           ]
   },
   "experiences":{
     "title":"Mes experiences",
     "experiencesList":[
-      {"title":"Stagiaire",
-        "societe":"SIMAT",
+      {"title":"Stagiaire Informatique",
+        "societe":"Société Ivoirienne de Manutention et de Transit",
         "dated":"Novembre 2023",
         "datef":"Juin 2024",
         "taches": [
-          'Création de landing pages',
-          'Maintenance de sites clients',
-          'Participation aux réunions Agile',
-          'Création de landing pages',
-          'Maintenance de sites clients',
-          'Participation aux réunions Agile',
-          'Création de landing pages',
-          'Maintenance de sites clients',
-          'Participation aux réunions Agile'
+          'Administration réseau et matérielle',
+          'Création et maintenance de logiciel de gestion avec Windev et Hfsql',
+          'Maintenance des machines',
+          'Maintenance des serveurs',
+          'Gestion des utilisateurs avec windows server',
+          'Tracking',
+          'Assistance aux utilisateurs'
         ]
       },
-      {"title":"Stagiaire",
-        "societe":"EDV",
+      {"title":"Stagiaire chargé de projet technique",
+        "societe":"Endeavour Mining",
         "dated":"Juin 2024",
         "datef":"juin 2025",
         "taches": [
-          'Création de landing pages',
-          'Maintenance de sites clients',
-          'Participation aux réunions Agile',
-          'Création de landing pages',
-          'Maintenance de sites clients',
-          'Participation aux réunions Agile',
-          'Création de landing pages',
-          'Maintenance de sites clients',
-          'Participation aux réunions Agile',
+          'Creation de dashboard avec Power BI',
+           'Developpemenet et maintenance de logiciel d’analyse et de u-reporting( javascript,bootstrap,angular,laravel,phpmvc, sql server management studio'
         ]
       },
 

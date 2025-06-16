@@ -9,7 +9,7 @@
     "build": "ng build",
     "build:prod": "ng build -c production",
     "predeploy": "ng build --output-path=docs --base-href=/IBRAPHOLIO/ --project=monPortfolio",
-    "deploy": "xcopy /E /Y /I docs\\browser docs && git add docs && git commit -m \"Déploiement GitHub Pages\" && git push"
+    "deploy": "git add docs && git commit -m \"Déploiement GitHub Pages\" && git push"
   },
   "private": true,
   "dependencies": {
