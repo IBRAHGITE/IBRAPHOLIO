@@ -57,16 +57,25 @@ export const Data = {
   },
   "projects": {
     "title": "Mes projets",
-    "projectsList": [
+    "projectsList":
+      [
        {
         "id" : 1,
         "name" : "Quizz dev",
         "description" : "Projet realiser en angular qui genere des quizz aleatoire en nombre aleatoire sur le developpement web(Front et Backe-end) et affiche leur score a la fin",
         "image" : "assets/Img/QuizDev.png",
-        "link" : "https://ibrahgite.github.io/QuizDev",
+        "link" : "https://quizdev-5102b.web.app/home",
+        "modalButtonText": "Voir la démo"
+       },
+       {
+        "id" : 2,
+        "name" : "Dev Hub",
+        "description" : "Forum pour les developpeur ou chacun peut donner son avis sur un projet ou un langage de programmation",
+        "image" : "assets/Img/DevHub.png",
+        "link" : "https://ibrahgite.github.io/DevHub/",
         "modalButtonText": "Voir la démo"
        }
-          ]
+      ]
   },
   "experiences":{
     "title":"Mes experiences",
